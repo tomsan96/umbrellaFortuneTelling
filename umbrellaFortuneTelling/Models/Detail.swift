@@ -7,7 +7,7 @@
 import Foundation
 
 struct Detail: Codable {
-    let weather: String
-    let wind: String
-    let wave: String
+    let weather: String?
+    let wind: String?
+    let wave: String?
 }
